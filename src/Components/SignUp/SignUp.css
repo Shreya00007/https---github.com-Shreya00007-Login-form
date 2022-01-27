@@ -1,0 +1,58 @@
+.container {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+  .container > form {
+    width: 70%;
+    border: 1px solid #dfdfdf;
+    padding: 50px 66px;
+    box-shadow: -1px 0px 2px 2px;
+    border-radius: 5px;
+    background: #fff;
+  }
+  pre {
+    width: 70%;
+    color: #fff;
+    font-size: larger;
+  }
+  
+  button {
+    background: #200485!important;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #200485;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+
+  }
+  p {
+    color: red;
+  }
+  input[type="text"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 1px 4px;
+    padding: 10px;
+    padding: 10px 1;
+}
+input[type="password"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 1px 4px;
+    padding: 10px;
+    padding: 10px 1;
+}
+body {
+    background: #200485;
+}
